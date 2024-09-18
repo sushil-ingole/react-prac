@@ -1,0 +1,21 @@
+.nav {
+    width: 100vw;
+    padding: 10px;
+    display: flex;
+    background-color: black;
+    .nav-item {
+        color: white;
+        list-style-type: none;
+        padding: 10px;
+        margin: 0 10px;
+        cursor: pointer;
+
+        a:hover {
+            border-bottom: 2px solid blue;
+        }
+
+        a.active {
+            border-bottom: 2px solid blue;
+        }
+    }
+}
